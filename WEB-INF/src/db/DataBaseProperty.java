@@ -5,10 +5,10 @@ public class DataBaseProperty {
 
 	static final public String DB_URL = "jdbc:sqlserver://mis.nagaokaut.ac.jp";
 
-	static final public String DB_NAME = "SeReserveZ";
+	static final public String DB_NAME = "SeReserveB";
 
-	static final public String DB_USERNAME = "SeReserveZ";
+	static final public String DB_USERNAME = "SeReserveB";
 
-	static final public String DB_PASSWORD = "SeReserveZ";
+	static final public String DB_PASSWORD = "SeReserveB";
 
 }
