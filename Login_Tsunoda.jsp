@@ -25,7 +25,7 @@
 
 <br />
 
-<input type="submit" value="ログイン!!!" />
+<input type="submit" value="ログイン!" />
 
 </form>
 
