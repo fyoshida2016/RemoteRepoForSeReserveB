@@ -11,7 +11,7 @@
 <body>
 <center>
 
-会議室予約システム <%// 児玉%>
+会議室予約システム (児玉)
 
 <form method="POST" action="LoginServlet" >
 
