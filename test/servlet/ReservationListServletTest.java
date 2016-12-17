@@ -18,7 +18,7 @@ public class ReservationListServletTest extends TestServlet {
 	public void 予約情報を読み込む() throws Exception {
 		// データベースにテストデータを挿入
 		TestDataBase db=new TestDataBase();
-		db.setTestData("./testdata/story09/ReservationListServlet_test.xls");
+		db.setTestData("./testdata/story09/bookingRoomManager_test.xls");
 
 		// Getメソッドを指定
 		setGet();
