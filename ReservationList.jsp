@@ -49,7 +49,8 @@ LinkedList<Reservation> reservations =(LinkedList<Reservation>)request.getAttrib
 
 	  out.println("<td>"+ user.getName() + "</td>");
 
-	  out.println("<td><form method=post action=ReservationDetailServlet><input type=submit value=詳細>");
+	  out.println("<td><form method=post action=ReservationDetailsServlet><input type=submit value=詳細>");
+	  out.println("<input type = hidden name = RID value = " + reservations.get(i).getRid() + ">");
 	  out.println("</form></td></tr>");
   }
 
